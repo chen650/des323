@@ -28,7 +28,7 @@ activateFunctions[0] = function(){
 
 activateFunctions[1] = function(){ 
   $('#graphic').fadeTo('slow', 1);
-  $('#header').fadeTo('slow', 0);
+  $('#intro').fadeTo('slow', 0);
 };
 
 activateFunctions[2] = function(){ 
@@ -37,7 +37,7 @@ activateFunctions[2] = function(){
 };
 
 reverseFunctions[0] = function(){ 
-  $('#header').fadeTo('slow', 1);
+  $('#intro').fadeTo('slow', 1);
   $('#graphic').fadeTo('slow', 0);
 };
 

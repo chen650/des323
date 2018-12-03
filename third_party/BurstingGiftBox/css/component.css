@@ -6,7 +6,7 @@ body {
     background-color: #000000 ;
 }
 
-#header {
+#intro {
   display:block;
   position: fixed;
   width: 100%;
@@ -14,7 +14,7 @@ body {
   height:100%;
 }
 
-#headerCaption {
+#introCaption {
   font-size: 20px;
   margin:auto;
   float:none;
