@@ -86,8 +86,13 @@ body {
 	left: 0;
 	width: 100%;
 	text-align: center;
-	font-size: 24px;
+	font-size: 32px;
 	z-index: 10;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 	-webkit-transform: rotate(-20deg);
 	transform: rotate(-20deg);
 	-webkit-transform-origin: 0 0;
