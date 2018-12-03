@@ -1,0 +1,59 @@
+.container {
+  display:block;
+}
+
+#graphic {
+  position: absolute;
+  margin: 0;
+  padding: 0px;
+  max-width: calc(50% + 100vh * 660 / 500);
+  width: 100%;
+}
+
+#sections {
+  position: absolute;
+  display: inline-block;
+  width: calc(25%);
+  min-width: calc(100% - 100vh * 660 / 500);
+  padding: 10px;
+  margin-bottom: calc(100vh - 100px);
+}
+
+#vis {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+  top: 0px;
+  width: calc(75%);
+  max-width: calc(100vh * 660 / 500);
+}
+
+.step {
+  color: #fdc56d;
+  font-size: 20px;
+  font-family: 'Affogato-Regular';
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding-right: 10px;
+  padding-left: 10px;
+  opacity: 0;
+}
+
+.highlighted-step {
+  border-left: 6px solid #D9D4D0;
+  padding-left: 10px;
+  opacity: 1;
+}
+
+@font-face {
+  font-family: Affogato-Regular;
+  src: url("./third_party/BurstingGiftBox/css/Affogato-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
